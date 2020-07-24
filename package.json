@@ -1,35 +1,33 @@
 {
-  "name": "nw-builder",
+  "name": "nw-builder-mirror",
   "version": "3.5.7",
-  "description": "nw-builder",
+  "description": "nw-builder with taobao mirror",
   "main": "index.js",
   "scripts": {
     "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mllrsohn/nw-builder.git"
+    "url": "git://github.com/wybosys/nw-builder.git"
   },
   "bin": {
     "nwbuild": "./bin/nwbuild"
   },
   "author": {
-    "name": "Steffen Müller"
+    "name": "wybosys"
   },
-  "contributors": [
-    {
-      "name": "Adam Lynch",
-      "email": "contact@adamlynch.com"
-    }
-  ],
+  "contributors": [{
+    "name": "wybosys",
+    "email": "wybosys@gmail.com"
+  }],
   "engines": {
     "node": ">= 4.0.0"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mllrsohn/nw-builder/issues"
+    "url": "https://github.com/wybosys/nw-builder/issues"
   },
-  "homepage": "https://github.com/mllrsohn/nw-builder",
+  "homepage": "https://github.com/wybosys/nw-builder",
   "keywords": [
     "NW.js",
     "node-webkit",
